@@ -1,0 +1,11 @@
+# Python packages required by the Streamlit app only.
+# The runtime machine-learning model is Random Forest (scikit-learn) —
+# TensorFlow is NOT required by the app.
+streamlit>=1.30
+numpy>=1.26,<3
+pandas>=2.0,<3
+scikit-learn>=1.4,<2
+pymatgen>=2024.0
+plotly>=5.20
+matplotlib>=3.8
+joblib>=1.3

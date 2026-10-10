@@ -1,0 +1,13 @@
+# Optional package for the deep-learning part of the project.
+#
+# NOTE: TensorFlow does not (yet) provide wheels for Python 3.14 on Windows.
+# Install this file only in a virtual environment based on Python 3.10 - 3.13.
+# Without TensorFlow the project still runs fully: training, prediction and the
+# Streamlit app fall back to the classical machine-learning models (Random
+# Forest / Gradient Boosting / Linear Regression).
+#
+#   python -m venv venv-dl          # created with Python 3.12, for example
+#   venv-dl\Scripts\activate
+#   python -m pip install -r requirements.txt
+#   python -m pip install -r requirements-dl.txt
+tensorflow>=2.16
